@@ -1,15 +1,22 @@
 //using counter in loop
+<!DOCTYPE html>
 <html>
 <body>
 
 <?php  
-$x = 1;
+$y = 1;//counter for block
+while($y <= 5) {?>
+
+<div>
+<?php  
+$x = 1;//counter for individual elements in block
  
 while($x <= 5) {
   ?><div><?php echo"The number is: $x";?></div><?php
   $x++;
-} 
+}
 ?>  
-
+</div>
+<?php $y++;} ?>
 </body>
 </html>
