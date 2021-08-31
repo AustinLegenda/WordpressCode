@@ -13,7 +13,7 @@ $x = 1;//counter for individual elements in block
  
 while($x <= 5) {
   ?><div><?php echo"The number is: $x";?></div><?php
-  $x++;
+  $x++; //this is a test. Just testing
 }
 ?>  
 </div>
